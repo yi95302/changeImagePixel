@@ -5,11 +5,17 @@
 每次修改均会恢复上一次修改的值，然后重新修改，避免多次修改后，rgb值和原值差距太大。
 
 1.安装python3
+
   https://www.python.org
+  
 2.安装库Pillow
+
   pip3 install Pillow
 
 3.修改文件
+
 imgPath = "目录／文件"  # 要修改的目录／文件
+
 restoreAndModify = 1  # 1：恢复之前的像素值，并修改   0：只恢复
+
 modifyNum = 5         # 随机选取像素点的个数
