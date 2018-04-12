@@ -6,16 +6,14 @@
 
 1.安装python3
 
-  https://www.python.org
+    https://www.python.org
   
 2.安装库Pillow
 
-  pip3 install Pillow
+    pip3 install Pillow
 
 3.修改文件
 
-imgPath = "目录／文件"  # 要修改的目录／文件
-
-restoreAndModify = 1  # 1：恢复之前的像素值，并修改   0：只恢复
-
-modifyNum = 5         # 随机选取像素点的个数
+    imgPath = "目录／文件"  # 要修改的目录／文件
+    restoreAndModify = 1  # 1：恢复之前的像素值，并修改   0：只恢复
+    modifyNum = 5         # 随机选取像素点的个数
